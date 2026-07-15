@@ -8,9 +8,6 @@ An AI-powered web application that combines **Machine Learning** and **Natural L
 
 ---
 
-## 📸 Screenshot
-
-
 ---
 
 ## 📋 Overview
