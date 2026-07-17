@@ -10,7 +10,7 @@ An AI-powered web application that combines **Machine Learning** and **Natural L
 
 ---
 
-## 📋 Overview
+##  Overview
 
 Mental health issues often go unnoticed until they become severe. This project aims to provide an early, accessible, AI-assisted way for individuals to reflect on their mental state through two complementary approaches:
 
@@ -22,7 +22,7 @@ Mental health issues often go unnoticed until they become severe. This project a
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 - **Source:** Mental Health Dataset (survey-based, ~292,000 records)
 - **Features:** Gender, Country, Occupation, Self-employed status, Family history, Days spent indoors, Growing stress, Changes in habits, Mental health history, Mood swings, Coping struggles, Work interest, Social weakness, Mental health interview comfort, Care options awareness
@@ -30,7 +30,7 @@ Mental health issues often go unnoticed until they become severe. This project a
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -63,7 +63,7 @@ Mental health issues often go unnoticed until they become severe. This project a
 
 ---
 
-## 💬 NLP Module
+##  NLP Module
 
 Since the dataset itself contains no free text, a **VADER Sentiment Analyzer** (NLTK) module was added to let users type a journal entry describing how they feel. The text is scored on a compound sentiment scale and classified into:
 
@@ -77,7 +77,7 @@ This mood label is combined with the ML questionnaire prediction to generate the
 
 ---
 
-## 🌐 Application Features
+##  Application Features
 
 The Streamlit web app has three tabs:
 
@@ -87,7 +87,7 @@ The Streamlit web app has three tabs:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-mental-health-monitor/
@@ -105,7 +105,7 @@ ai-mental-health-monitor/
 
 ---
 
-## ⚙️ Installation & Local Setup
+##  Installation & Local Setup
 
 ```bash
 # Clone the repository
@@ -128,7 +128,7 @@ This project is deployed on **Streamlit Community Cloud**, connected directly to
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - Add cross-validation for more robust model comparison
 - Upgrade NLP module to a transformer-based emotion classifier (e.g. DistilRoBERTa) for finer-grained mood detection
@@ -141,6 +141,5 @@ This project is deployed on **Streamlit Community Cloud**, connected directly to
 
 ---
 
-## 👤 Author: Ritusree Banerjee
+##  Author: Ritusree Banerjee
 
-Developed as an AI/ML + NLP portfolio project — combining survey-based classification with sentiment-based text analysis for mental health awareness.
